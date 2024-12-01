@@ -1,0 +1,43 @@
+#root {
+  margin: 0;
+  padding: 1rem;
+  background-color: #008080;
+  min-height: 100vh;
+  font-family: "MS Sans Serif", "Segoe UI", Tahoma, sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 1rem;
+  padding: 8px;
+  background: #c0c0c0;
+  border: 2px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  box-shadow: inset 1px 1px 0px #dfdfdf, inset -1px -1px 0px #000;
+}
+
+.App {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
